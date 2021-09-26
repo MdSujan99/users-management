@@ -1,0 +1,53 @@
+.container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: antiquewhite;
+  /* width: fit-content; */
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.541);
+}
+.container:hover {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.219);
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.buttons button {
+  margin: 3px;
+  padding: 3px;
+  background-color: inherit;
+  border: none;
+  border-radius: 10px;
+}
+.buttons button:hover {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.219);
+
+  background-color: rgba(255, 255, 255, 0.822);
+}
+.buttons button:active {
+  background-color: rgb(127, 187, 255);
+}
+.userDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.userDetails div {
+  margin: 5px;
+}
+.nameBubble {
+  background-color: rgb(127, 187, 255);
+  /* width: fit-content; */
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
