@@ -6,7 +6,8 @@ import classes from "./UsersView.module.css";
 function UsersView(props) {
   const [isLoading, setIsLoaded] = useState(true);
   const [loadedData, setLoadedData] = useState([]);
-  const myAPI = location.protocol + "//3.6.93.159:7883/machstatz/get_all_users";
+  const myAPI =
+    window.location.protocol + "//3.6.93.159:7883/machstatz/get_all_users";
 
   useEffect(() => {
     // GET request using fetch inside useEffect React hook
